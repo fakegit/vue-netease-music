@@ -2,7 +2,7 @@
 // 用于读取url中的分享信息
 import { isDef, createSong } from "@/utils"
 import { getSearch } from "@/api"
-import { mapActions, mapMutations } from "@/store/helper/music"
+import { mapActions, mapMutations } from "@/store/music"
 
 export default {
   created() {

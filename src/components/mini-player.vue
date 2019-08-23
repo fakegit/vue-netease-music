@@ -149,7 +149,7 @@ import {
   mapMutations,
   mapGetters,
   mapActions
-} from "@/store/helper/music"
+} from "@/store/music"
 import Storage from "good-storage"
 import Share from "@/components/share"
 import { VOLUME_KEY, playModeMap, isDef } from "@/utils"

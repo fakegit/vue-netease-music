@@ -64,7 +64,7 @@
 <script type="text/ecmascript-6">
 import { getMvDetail, getMvUrl, getArtists, getSimiMv } from "@/api"
 import { hideMenuMixin } from "@/utils"
-import { mapMutations } from "@/store/helper/music"
+import { mapMutations } from "@/store/music"
 import Comments from "@/components/comments"
 import MvCard from "@/components/mv-card"
 

@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { mapActions, mapMutations } from "@/store/helper/music"
+import { mapActions, mapMutations } from "@/store/music"
 import { getNewSongs } from "@/api"
 import SongCard from "@/components/song-card"
 import { createSong } from "@/utils"

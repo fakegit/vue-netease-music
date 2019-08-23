@@ -89,7 +89,7 @@
 
 <script type="text/ecmascript-6">
 import storage from "good-storage"
-import { mapActions, mapMutations } from "@/store/helper/music"
+import { mapActions, mapMutations } from "@/store/music"
 import { getSearchHot, getSearchSuggest } from "@/api"
 import { createSong, genArtistisText, debounce } from "@/utils"
 

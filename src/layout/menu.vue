@@ -38,7 +38,7 @@ import User from "@/components/user"
 import {
   mapState as mapUserState,
   mapGetters as mapUserGetters
-} from "@/store/helper/user"
+} from "@/store/user"
 import { menuRoutes } from "@/router"
 
 export default {

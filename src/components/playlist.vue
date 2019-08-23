@@ -45,7 +45,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { mapState, mapMutations, mapActions } from "@/store/helper/music"
+import { mapState, mapMutations, mapActions } from "@/store/music"
 import SongTable from "./song-table"
 export default {
   mounted() {

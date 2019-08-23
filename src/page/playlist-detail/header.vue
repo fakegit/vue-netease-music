@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { mapActions, mapMutations } from "@/store/helper/music"
+import { mapActions, mapMutations } from "@/store/music"
 export default {
   props: {
     playlist: {

@@ -62,7 +62,7 @@
 import Theme from "@/components/theme"
 import Search from "@/components/search"
 import RoutesHistory from "@/components/routes-history"
-import { mapState, mapMutations } from "@/store/helper/music"
+import { mapState, mapMutations } from "@/store/music"
 import { requestFullScreen, exitFullscreen, isFullscreen } from "@/utils"
 
 export default {

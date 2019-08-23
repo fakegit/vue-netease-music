@@ -22,7 +22,7 @@
 import LayoutHeader from "./header"
 import LayoutMenu from "./menu"
 import { layoutCenterNames } from "@/router"
-import { mapState } from "@/store/helper/music"
+import { mapState } from "@/store/music"
 
 export default {
   data() {

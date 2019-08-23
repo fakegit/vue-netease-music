@@ -67,7 +67,7 @@
 import storage from 'good-storage'
 import { UID_KEY, isDef } from '@/utils'
 import { confirm } from '@/base/confirm'
-import { mapActions as mapUserActions, mapState as mapUserState, mapGetters as mapUserGetters } from '@/store/helper/user'
+import { mapActions as mapUserActions, mapState as mapUserState, mapGetters as mapUserGetters } from '@/store/user'
 
 export default {
   // 自动登录

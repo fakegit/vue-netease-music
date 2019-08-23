@@ -152,7 +152,7 @@ import { getLyric, getSimiSongs, getSimiPlaylists } from "@/api"
 import lyricParser from "@/utils/lrcparse"
 import { debounce, isDef, createSong, goMvWithCheck } from "@/utils"
 import Comments from "@/components/comments"
-import { mapState, mapMutations, mapActions } from "@/store/helper/music"
+import { mapState, mapMutations, mapActions } from "@/store/music"
 
 const WHEEL_TYPE = "wheel"
 const SCROLL_TYPE = "scroll"

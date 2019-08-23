@@ -1,7 +1,7 @@
 
 <script>
 import ElTable from "element-ui/lib/table"
-import { mapMutations, mapActions, mapState } from "@/store/helper/music"
+import { mapMutations, mapActions, mapState } from "@/store/music"
 import { pad, goMvWithCheck } from "@/utils"
 
 export default {
